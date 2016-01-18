@@ -1,7 +1,7 @@
 # This file defines $mosesdir for all scripts.
 
 # Full path of the directory that contains the Moses-for-Mere-Mortals folder
-mtdir="$HOME/Desktop/Machine-Translation"
+mtdir=$(readlink -f $(pwd)/../..)
 
 # Consolidated to a single location: Don't Repeat Yourself.
 # To-do
